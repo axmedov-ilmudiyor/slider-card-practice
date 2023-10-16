@@ -4,8 +4,153 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Slider Card</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+      crossorigin=""
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
+    <title>Slider Card</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="card__container swiper">
+        <div class="card__content">
+          <div class="swiper-wrapper">
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img
+                  class="card__img"
+                  src="./img/card-img-1.png"
+                  alt="slider card's img"
+                />
+                <div class="card-shadow"></div>
+              </div>
+              <div class="card__info">
+                <h3 class="card__name">Sara Mit</h3>
+                <p class="card__desc">
+                  Passionate about development and design, I carry out projects
+                  at the request of users.
+                </p>
+                <a class="card__button" href="#">View More</a>
+              </div>
+            </article>
+
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img
+                  class="card__img"
+                  src="./img/card-img-2.png"
+                  alt="slider card's img"
+                />
+                <div class="card-shadow"></div>
+              </div>
+              <div class="card__info">
+                <h3 class="card__name">Lotw Fox</h3>
+                <p class="card__desc">
+                  Passionate about development and design, I carry out projects
+                  at the request of users.
+                </p>
+                <a class="card__button" href="#">View More</a>
+              </div>
+            </article>
+
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img
+                  class="card__img"
+                  src="./img/card-img-3.png"
+                  alt="slider card's img"
+                />
+                <div class="card-shadow"></div>
+              </div>
+              <div class="card__info">
+                <h3 class="card__name">Kell Dawx</h3>
+                <p class="card__desc">
+                  Passionate about development and design, I carry out projects
+                  at the request of users.
+                </p>
+                <a class="card__button" href="#">View More</a>
+              </div>
+            </article>
+
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img
+                  class="card__img"
+                  src="./img/card-img-4.png"
+                  alt="slider card's img"
+                />
+                <div class="card-shadow"></div>
+              </div>
+              <div class="card__info">
+                <h3 class="card__name">Jenny Wert</h3>
+                <p class="card__desc">
+                  Passionate about development and design, I carry out projects
+                  at the request of users.
+                </p>
+                <a class="card__button" href="#">View More</a>
+              </div>
+            </article>
+
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img
+                  class="card__img"
+                  src="./img/card-img-5.png"
+                  alt="slider card's img"
+                />
+                <div class="card-shadow"></div>
+              </div>
+              <div class="card__info">
+                <h3 class="card__name">Lexa Kin</h3>
+                <p class="card__desc">
+                  Passionate about development and design, I carry out projects
+                  at the request of users.
+                </p>
+                <a class="card__button" href="#">View More</a>
+              </div>
+            </article>
+
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img
+                  class="card__img"
+                  src="./img/card-img-6.png"
+                  alt="slider card's img"
+                />
+                <div class="card-shadow"></div>
+              </div>
+              <div class="card__info">
+                <h3 class="card__name">Abdullah ibn Abd</h3>
+                <p class="card__desc">
+                  Passionate about development and design, I carry out projects
+                  at the request of users.
+                </p>
+                <a class="card__button" href="#">View More</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!--*----- Navigation Button ------->
+        <div class="swiper-button-prev">
+          <i class="ri-arrow-left-circle-line"></i>
+        </div>
+        <div class="swiper-button-next">
+          <i class="ri-arrow-right-circle-line"></i>
+        </div>
+
+        <!--*----- Pagination ------->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
 </html>
