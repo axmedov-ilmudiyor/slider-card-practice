@@ -42,7 +42,7 @@ a {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -66,8 +66,7 @@ img {
 }
 
 .card__article {
-  width: 100%;
-  max-width: 300px;
+  width: 300px;
   border-radius: 1.25rem;
   overflow: hidden;
 }
@@ -160,4 +159,25 @@ img {
 
 .swiper-pagination-bullet-active {
   background-color: var(--second-color);
+}
+
+/*********** BREAKPOINTS ***********/
+
+/* For small devices */
+@media screen and (max-width: 320px) {
+  .card__info {
+    padding: 1rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card__content {
+    margin-inline: 3rem;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
+  }
 }
